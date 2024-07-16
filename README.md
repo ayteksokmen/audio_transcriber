@@ -1,7 +1,7 @@
 # Audio Transcription Flutter App
 
 This Flutter app allows users to record audio, play back the recorded audio, and receive a transcription by Whisper API
-of the spoken text displayed in the UI.
+of the spoken text displayed in the UI. The app is designed and tested for Android, iOS, iPad, and macOS.
 
 ## Table of Contents
 
