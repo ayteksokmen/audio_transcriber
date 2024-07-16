@@ -14,6 +14,7 @@ of the spoken text displayed in the UI.
     - [Data Layer](#data-layer)
     - [Domain Layer](#domain-layer)
     - [Presentation Layer](#presentation-layer)
+- [Firebase Function](#firebase-function)
 - [Libraries Used](#libraries-used)
 
 ## Setup and Run the Project
@@ -76,6 +77,22 @@ the domain layer, and the presentation layer.
 	•	Blocs: Contains BLoC classes for managing UI state.
 	•	Screens: Contains the UI screens.
 	•	Widgets: Contains reusable UI components.
+
+## Firebase Function
+
+The app uses a Firebase Cloud Function to handle audio transcription requests using the Whisper API. This function receives an audio file in Base64 String, processes it, and returns the transcribed text.
+
+Purpose
+
+The Firebase function serves the following purposes:
+
+	•	Security: Keeps the Whisper API key secure by not exposing it to the client-side.
+	•	Processing: Offloads the transcription processing to the server, reducing the load on the client device.
+	•	Flexibility: Allows easy updates and changes to the transcription logic without needing to update the client app.
+
+Usage
+
+The function is deployed on Firebase and can be invoked from the app to get the transcription of an audio file. For more details on the Firebase function setup and usage, refer to the [transcriber.functions README.](https://github.com/ayteksokmen/transcriber.functions/blob/main/README.md)
 
 ## Libraries Used
 
