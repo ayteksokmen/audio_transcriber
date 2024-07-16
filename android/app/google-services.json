@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "150543509218",
+    "project_id": "transcriber-2a15d",
+    "storage_bucket": "transcriber-2a15d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150543509218:android:3a75418445983be93760bb",
+        "android_client_info": {
+          "package_name": "com.sokmen.audio_transcriber"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLFJN9YrBOIEyJmcFRLuyNuBWJVScLIYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
